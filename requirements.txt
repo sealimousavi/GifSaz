@@ -1,7 +1,6 @@
 python-telegram-bot
+flask
+gunicorn
 pillow
 imageio
 nest_asyncio
-flask
-gunicorn
-
