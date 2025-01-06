@@ -1,0 +1,7 @@
+python-telegram-bot
+pillow
+imageio
+nest_asyncio
+flask
+gunicorn
+
