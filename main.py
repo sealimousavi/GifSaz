@@ -44,6 +44,7 @@ def main():
     application.add_handler(MessageHandler(filters.ALL, handle_message))
 
     # Set webhook
+    print("test")
     webhook_url = f"https://{os.getenv('HEROKU_APP_NAME', 'your-doprax-app')}.doprax.com/{TOKEN}"
     application.bot.setWebhook(webhook_url)
 
