@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
 # Get environment variables from Doprax
-TOKEN = os.getenv("Y7606766248:AAF7vMiguoJhAyrVp2JvIhOrxX68IVHe-Uo")  # Your Telegram Bot Token
+TOKEN = os.getenv("BOT_TOKEN")  # Your Telegram Bot Token
 PORT = int(os.environ.get("PORT", 5000))  # Default Flask port
 
 # Initialize Flask app
